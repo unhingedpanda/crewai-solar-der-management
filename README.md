@@ -69,7 +69,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/crewai-solar-der-management.git
+git clone https://github.com/unhingedpanda/crewai-solar-der-management.git
 cd crewai-solar-der-management
 
 # Create virtual environment (using uv - recommended)
