@@ -1,0 +1,19 @@
+```
+Comprehensive Status Report of the Solar Inverter:
+
+**Current AC Measurements:**
+- Power Output: 1878 W
+- Apparent Power: 1956 VA
+- Voltage (L1-N): 265.0 V
+- Current: 7.82 A
+- Frequency: 60.00 Hz
+- Operating State: Sleeping
+- Inverter State: Starting
+- Alarms: Active (Code: 1024) - AC Over-Voltage Detected
+
+**Current Control Settings:**
+- Power Setpoint: 1878 W
+- Setpoint Status: Enabled
+- Maximum Capacity: 3000 W
+- Current Limit: 1878 W (Effective)
+```
