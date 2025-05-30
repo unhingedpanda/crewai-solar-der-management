@@ -1,0 +1,11 @@
+SCENARIO 3: VOLTAGE ANOMALY DETECTION SUMMARY
+==================================================
+Execution Time: 2025-05-30 14:22:18
+Grid Demand: 1100.0 kW
+DR Event: False
+Voltage Anomaly: SIMULATED
+Solar Capacity: 3000 W
+Status: SUCCESS
+
+Final Result:
+The command sent to the SolarControlAgent instructed it to set the solar inverter to operate at its maximum capacity of 3000 W with controls enabled. The current operational state of the solar inverter is now set to 3000 W, confirmed as operational with controls engaged.

@@ -1,0 +1,10 @@
+SCENARIO 2: DEMAND RESPONSE EVENT SUMMARY
+==================================================
+Execution Time: 2025-05-30 14:21:08
+Grid Demand: 800.0 kW
+DR Event: True
+Solar Capacity: 3000 W
+Status: SUCCESS
+
+Final Result:
+The command has been executed successfully, instructing the solar inverter to operate at a power limit of 1878W. The inverter is now active, enabling compliance with the demand response event requirements, with the new operational state being: Power Setpoint = 1878W, Setpoint Status = Enabled, Inverter State = Active.

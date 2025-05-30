@@ -75,9 +75,9 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Logs
-logs/
-*.log
+# Logs - Commented out to include example execution logs for demo purposes
+# logs/
+# *.log
 
 # CrewAI specific
 crew_output/
