@@ -2,4 +2,6 @@ crewai>=0.28.8
 crewai-tools
 python-dotenv>=0.21.0
 langchain-google-genai
-langsmith 
+langsmith
+streamlit
+plotly 

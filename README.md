@@ -2,6 +2,25 @@
 
 A sophisticated multi-agent system built with CrewAI for managing solar Distributed Energy Resources (DER). This system demonstrates intelligent coordination between utility grid operations and solar inverter control using SunSpec-compliant simulation.
 
+## 🎨 Interactive Demo
+
+**🌟 NEW: Live Streamlit UI Demo Available!**
+
+Experience the multi-agent system through an interactive web interface that shows real-time agent interactions, decision-making processes, and solar asset management.
+
+### Launch the Interactive Demo:
+```bash
+# After installation (see Quick Start below)
+streamlit run streamlit_app.py
+```
+
+**Demo Features:**
+- 🎛️ **Interactive Controls**: Select scenarios and adjust parameters
+- 🤖 **Live Agent Chat**: Watch agents communicate in real-time
+- 📊 **Visual Dashboard**: Solar power gauges and system metrics
+- 📈 **Timeline View**: Agent activity visualization
+- 🔍 **Detailed Logs**: Expandable raw agent outputs
+
 ## 🏗️ System Architecture
 
 ```
@@ -32,6 +51,7 @@ A sophisticated multi-agent system built with CrewAI for managing solar Distribu
 - **📈 Predictive Analytics**: 2-hour power generation forecasting
 - **📋 Policy Enforcement**: Automated demand response and grid stability rules
 - **📁 Comprehensive Logging**: Detailed execution logs for all scenarios
+- **🎨 Interactive UI**: Live Streamlit dashboard for real-time demonstration
 
 ## 🚀 Quick Start
 
@@ -69,7 +89,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ```bash
 # Clone the repository
-git clone https://github.com/unhingedpanda/crewai-solar-der-management.git
+git clone https://github.com/YOUR_USERNAME/crewai-solar-der-management.git
 cd crewai-solar-der-management
 
 # Create virtual environment (using uv - recommended)
@@ -79,7 +99,10 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 # Install dependencies
 uv pip install -r requirements.txt
 
-# Run the system
+# Option 1: Run Interactive Streamlit Demo (Recommended)
+streamlit run streamlit_app.py
+
+# Option 2: Run Command Line Demo
 python main.py
 ```
 
@@ -137,6 +160,7 @@ The system demonstrates three operational scenarios:
 ```
 crewai_der_management/
 ├── main.py                    # Main orchestration script
+├── streamlit_app.py           # Interactive Streamlit UI
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
 ├── .gitignore                # Git ignore rules
@@ -157,6 +181,30 @@ crewai_der_management/
     ├── scenario_*_summary_*.txt
     └── master_summary_*.txt
 ```
+
+## 🎨 Streamlit UI Features
+
+The interactive web interface provides:
+
+### 🎛️ Control Panel
+- **Scenario Selection**: Choose between Normal, DR Event, or Voltage Anomaly
+- **Parameter Controls**: Adjust grid demand with sliders
+- **Real-time Execution**: Watch agents work with progress indicators
+
+### 📊 Visual Dashboard  
+- **System Status**: Live agent status and solar capacity metrics
+- **Power Gauge**: Interactive circular gauge showing current solar output
+- **Solar Metrics**: Power, voltage, efficiency, and operational status
+
+### 🤖 Agent Interactions
+- **Live Chat View**: See agent conversations as they happen
+- **Activity Timeline**: Visual timeline of agent actions
+- **Raw Logs**: Expandable detailed execution logs
+
+### 📈 Results Display
+- **Execution Summary**: Key decisions and outcomes
+- **Performance Metrics**: Curtailment levels and efficiency data
+- **Scenario Comparison**: Side-by-side result analysis
 
 ## 📝 Example Logs
 
@@ -205,4 +253,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - **CrewAI**: Multi-agent framework
 - **SunSpec Alliance**: Solar inverter communication standards
-- **Google Gemini/OpenAI**: LLM capabilities for intelligent agents 
+- **Google Gemini/OpenAI**: LLM capabilities for intelligent agents
+- **Streamlit**: Interactive web app framework 
